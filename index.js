@@ -1,5 +1,5 @@
 const input = document.querySelector('.input');
-const clearEntry = document.querySelector('.clear-entry');
+const clearEntry = document.querySelector('.delete-entry');
 const clear = document.querySelector('.clear');
 const equals = document.querySelector('.equals');
 const numbers = document.querySelectorAll('.number');
