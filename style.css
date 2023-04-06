@@ -1,0 +1,131 @@
+ *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+    background: #e5e5e5;
+}
+
+.container {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.calculator{
+    width: 415px;
+    display: inline-block;
+    border-radius: 30px;
+    background: #e5e5e5;
+    padding: 40px;
+    box-shadow: -6px -6px 9px #fff,
+    11px 11px 21px -8px #000;
+}
+
+.calculator input{
+    width: 90%;
+    height: 45px;
+    border: none;
+    outline: none;
+    text-align: end;
+    margin: 8px;
+    font-size: 30px;
+    border-radius: 30px;
+    background: #e5e5e5;
+    box-shadow: -5px -7px 9px #fff inset,
+                5px 11px 17px -13px #000 inset;
+}
+
+.buttons{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+    gap: 10px;
+    margin: 10px;
+}
+
+.button{
+    border-radius: 50px;
+    height: 60px;
+    width: 60px;
+    outline: none;
+    border: none;
+    box-shadow: -6px -6px 9px #fff,
+    11px 11px 21px -8px #000
+}
+/*
+body {
+    background-color: #e5e5e5;
+    height: 100vh;
+    display: flex;
+    padding-top: 20%;
+    justify-content: center;
+}
+
+.calculator {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 300px;
+    width: 250px;
+    padding: 1rem 1rem;
+
+
+    border-radius: 29px;
+    background: #e5e5e5;
+    box-shadow:  5px 5px 10px #757575,
+                 -5px -5px 10px #ffffff;
+}
+
+.input-output {
+    height: 60px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.input {
+    font-size: 36px;
+    font-weight: bold;
+    margin-right: 10px;
+    border: 1px solid red;
+    border-radius: 13px;
+    padding: 0.3rem;
+background: #e5e5e5;
+box-shadow: inset 5px 5px 10px #757575,
+            inset -5px -5px 10px #ffffff;
+}
+
+.buttons {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+    gap: 1.2rem;
+    margin: 10px;
+}
+
+button {
+    font-size: 24px;
+    font-weight: bold;
+    border: none;
+    height: 2rem;
+    border-radius: 1rem;
+    background: linear-gradient(145deg, #dbdada, #ffffff);
+    box-shadow:  5px 5px 10px #7e7e7e,
+                 -5px -5px 10px #ffffff;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+}
+
+button:hover {
+    box-shadow: inset 3px 3px 5px #BDBDBD, inset -3px -3px 5px #FFFFFF;
+}
+
+button:active {
+    box-shadow: inset -5px -5px 10px
+} */
